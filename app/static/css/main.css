@@ -1,0 +1,39 @@
+/* ugli code! */
+
+.main-section {
+	border-radius: 5px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding: 5px 5px;
+	background: #fff;
+	padding-left: 10px;
+}
+.block-info h1 {
+	font-size: 2em;
+}
+.block-info p {
+	padding-right: 15px;
+}
+.block-links {
+	padding-left: 15px;
+}
+.block-links h1 {
+	font-size: 2em;
+}
+.block-links a {
+	display: block;
+	width: 98%;
+}
+
+@media only screen and (max-width: 992px) { 
+	.main-section {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+}
+@media only screen and (max-width: 600px) { 
+	.main-section {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}
